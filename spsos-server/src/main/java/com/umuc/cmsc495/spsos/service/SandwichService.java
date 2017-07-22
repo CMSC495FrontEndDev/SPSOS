@@ -1,8 +1,8 @@
 package com.umuc.cmsc495.spsos.service;
 
-import com.umuc.cmsc495.spsos.model.Sandwich;
+import com.umuc.cmsc495.spsos.dm.Sandwich;
 
-public interface SandwichServiceInterface {
+public interface SandwichService {
 	
 	Sandwich updateSandwich(Sandwich sandwich);
 

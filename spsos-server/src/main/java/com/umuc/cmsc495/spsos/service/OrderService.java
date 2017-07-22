@@ -1,8 +1,8 @@
 package com.umuc.cmsc495.spsos.service;
 
-import com.umuc.cmsc495.spsos.model.Order;
+import com.umuc.cmsc495.spsos.dm.Order;
 
-public interface OrderServiceInterface {
+public interface OrderService {
 	
 	Order createOrder(Order order);
 	

@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.umuc.cmsc495.spsos.model.User;
-import com.umuc.cmsc495.spsos.service.UserServiceInterface;
+import com.umuc.cmsc495.spsos.dm.User;
+import com.umuc.cmsc495.spsos.service.UserService;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 	
 	@Autowired
-	private UserServiceInterface userService;
+	private UserService userService;
 
 	@RequestMapping(method = RequestMethod.POST)
 	private void createUser(User user) {

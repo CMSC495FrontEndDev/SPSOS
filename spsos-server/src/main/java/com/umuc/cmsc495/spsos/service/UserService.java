@@ -1,8 +1,8 @@
 package com.umuc.cmsc495.spsos.service;
 
-import com.umuc.cmsc495.spsos.model.User;
+import com.umuc.cmsc495.spsos.dm.User;
 
-public interface UserServiceInterface {
+public interface UserService {
 
 	User createUser(User user);
 	

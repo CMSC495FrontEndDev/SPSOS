@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.umuc.cmsc495.spsos.model.Order;
-import com.umuc.cmsc495.spsos.service.OrderServiceInterface;
+import com.umuc.cmsc495.spsos.dm.Order;
+import com.umuc.cmsc495.spsos.service.OrderService;
 
 @RestController
 @RequestMapping("/order")
 public class OrderController {
 	
 	@Autowired
-	private OrderServiceInterface orderService;
+	private OrderService orderService;
 
 	@RequestMapping(method = RequestMethod.POST)
 	private void createOrder(Order order) {
