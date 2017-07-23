@@ -1,4 +1,4 @@
-package com.umuc.cmsc495.spsos;
+package com.umuc.cmsc495.spsos.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

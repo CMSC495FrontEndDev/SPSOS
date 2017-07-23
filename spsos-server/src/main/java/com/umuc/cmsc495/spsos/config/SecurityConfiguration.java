@@ -1,4 +1,4 @@
-package com.umuc.cmsc495.spsos;
+package com.umuc.cmsc495.spsos.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
